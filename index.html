@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Virtual Keyboard</title>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Virtual Keyboard</h1>
+    </header>
+
+    <section class="txtAreaInput">
+      <textarea id="textArea"></textarea>
+
+      <section class="keyboardWrapper">
+
+        <section class="numerikBtn">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>0</button>
+          <button id="btnBackspace">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="m22.4 31.7 5.6-5.6 5.6 5.6 2.15-2.15L30.1 24l5.55-5.55-2.15-2.15-5.5 5.6-5.6-5.6-2.15 2.15L25.9 24l-5.65 5.55ZM6 24l8.45-11.95q.65-.9 1.55-1.475.9-.575 2-.575h21q1.25 0 2.125.875T42 13v22q0 1.25-.875 2.125T39 38H18q-1.1 0-2-.575-.9-.575-1.55-1.475Z"/></svg>
+          </button>
+        </section>
+
+        <section class="abjadTop">
+          <button>q</button>
+          <button>w</button>
+          <button>e</button>
+          <button>r</button>
+          <button>t</button>
+          <button>y</button>
+          <button>u</button>
+          <button>i</button>
+          <button>o</button>
+          <button>p</button>
+        </section>
+
+        <section class="abjadMiddle">
+          <button id="capslockID">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M10 30v-2.792h20V30ZM20 9.333l9.875 9.875-2 1.959L20 13.292l-7.792 7.75-1.958-1.959Z"/></svg>
+          </button>
+          <button>a</button>
+          <button>s</button>
+          <button>d</button>
+          <button>f</button>
+          <button>g</button>
+          <button>h</button>
+          <button>j</button>
+          <button>k</button>
+          <button>l</button>
+          <button id="removeAll">Remove All</button>
+        </section>
+
+        <section class="abjadBottom">
+          <button>z</button>
+          <button>x</button>
+          <button>c</button>
+          <button>v</button>
+          <button>b</button>
+          <button>n</button>
+          <button>m</button>
+          <button>,</button>
+          <button>.</button>
+          <button>?</button>
+        </section>
+
+        <section class="spaceSection">
+          <button id="spaceID">
+            <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M6.667 25V15h2.791v7.208h21.084V15h2.791v10Z"/></svg>
+          </button>
+        </section>
+
+      </section>
+    </section>
+  </main>
+</body>
+</html>
